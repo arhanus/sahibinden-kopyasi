@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-size: small;
+    color: white;
+}
+.logo{
+    width: 160px;
+}
+
+.header{
+    width: 100%;
+    height: 58px;
+    background-color: #3F475F;
+    display: flex;
+    
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+.search-section{
+    display: flex;
+    align-items: center;
+}
+
+.search-bar{
+    width: 290px;
+    height: 36px;
+    background-color: #2F3546;
+    color: gray;
+    border-radius: 5px;
+    border: none;
+    padding-left: 5px;
+    
+}
+
+#buyutec{
+    color: gray;
+    position: relative;
+    right: 30px;
+    align-items: center;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-bar a:last-child{
+    background: rgb(0, 125, 228);
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.nav-bar a:last-child:hover{
+    background:rgb(65, 152, 223) ;
+    transition: .1s;
+}
+
+.nav-bar a:first-child:hover,
+.nav-bar a:nth-child(3):hover,
+.search-section a:nth-child(2):hover
+{
+    text-decoration: underline;
+}
+
+.ads-container{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.home-content{
+   display: flex;
+   
+   width: 1099px;
+   margin-top: 15px;
+   
+}
+.home-container{
+    display: flex;
+    justify-content: center;
+}
+
+aside{
+ display: flex;
+ min-width:261px;
+ height: 2459px;
+ 
+ justify-content: left;
+ 
+}
+
+aside div ul a{
+    color: #015499;
+    font-weight: 400px;
+    font-size: medium;
+    justify-content: left;
+    display: flex;
+
+}
+
+.home article{
+    display: flex;
+    position:relative;
+    top: 25px;
+    flex-wrap:wrap;
+    gap: 15px;
+}
+
+.home article p{
+    color: black;
+}
+
+.categories hr{
+    position: relative;
+    top: 8px;
+    height: .5px;
+    color: grey;
+}
+
+.nav-bar hr{
+    height:20px;
+    width: .5px;
+}
+
+
+
+
